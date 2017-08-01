@@ -2,6 +2,7 @@
 
 import angular from 'angular';
 // import ngAnimate from 'angular-animate';
+import ProfileModule from './profile/profile.component';
 import ngCookies from 'angular-cookies';
 import ngResource from 'angular-resource';
 import ngSanitize from 'angular-sanitize';
@@ -29,7 +30,7 @@ import socket from '../components/socket/socket.service';
 import './app.scss';
 
 angular.module('startupbusApp', [ngCookies, ngResource, ngSanitize, 'btford.socket-io', uiRouter,
-  uiBootstrap, _Auth, account, admin, 'validation.match', navbar, footer, main, constants,
+  uiBootstrap, _Auth, account, admin, 'validation.match', navbar, footer, main, constants, ProfileModule,
   socket, util
 ])
   .config(routeConfig)
