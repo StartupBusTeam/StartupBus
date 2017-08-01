@@ -34,7 +34,7 @@ export default class ProfileController {
 
   register(form) {
     this.submitted = true;
-    console.log("somethings working", this.profile.trade);
+    console.log("somethings working", this.profile);
     // if(form.$valid) {
     //   return this.Auth.createUser({
     //     name: this.user.name,

@@ -8,9 +8,11 @@ import routing from './account.routes';
 import login from './login';
 import settings from './settings';
 import signup from './signup';
+import profile from './profile';
 import oauthButtons from '../../components/oauth-buttons';
 
 export default angular.module('startupbusApp.account', [uiRouter, login, settings, signup,
+  profile,
   oauthButtons
 ])
   .config(routing)
