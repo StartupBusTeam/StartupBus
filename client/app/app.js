@@ -2,6 +2,7 @@
 
 import angular from 'angular';
 // import ngAnimate from 'angular-animate';
+// import ProfileModule from './profile/profile.component';
 import ngCookies from 'angular-cookies';
 import ngResource from 'angular-resource';
 import ngSanitize from 'angular-sanitize';

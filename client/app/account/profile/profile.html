@@ -1,0 +1,39 @@
+<p>This is profile</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Sign up</h1>
+    </div>
+    <div class="col-sm-12">
+      <form class="form" name="form" ng-submit="vm.register(form)" novalidate>
+        <label>Trade:</label>  
+        <p class="input-group"></p>
+        <input type="text" name="name" class="form-control" ng-model="vm.profile.trade"
+                 required/> 
+        <label>Location:</label>  
+        <p class="input-group"></p>
+        <input type="text" name="name" class="form-control" ng-model="vm.profile.location"
+                 required/> 
+        <label>Telephone Number:</label>  
+        <p class="input-group"></p>
+        <input type="text" name="name" class="form-control" ng-model="vm.profile.telephone"
+                 required/> 
+        <label>Keywords</label>  
+        <p class="input-group"></p>
+        <input type="text" name="name" class="form-control" ng-model="vm.profile.keywords"
+                 required/> 
+        <label>Photo</label>  
+        <p class="input-group"></p>
+        <input type=“file” name=“fileupload” value=“fileupload” id=“fileupload”>
+        <label>Bio</label>  
+        <p class="input-group"></p>
+        <input type="text" name="name" class="form-control" ng-model="vm.profile.bio"
+                 required/> 
+          <button class="btn btn-inverse btn-lg btn-register" type="submit">
+            submitTest
+      </form>
+    </div>
+  </div>
+  <hr>
+</div>
